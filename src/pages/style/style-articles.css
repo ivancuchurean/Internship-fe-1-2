@@ -1,0 +1,80 @@
+body{background: #839695;}
+
+a{
+	text-decoration: none;
+}
+
+span{
+	font-size: 14px;
+	font-weight: 700;
+	display: inline-flex;
+	text-align: center;
+}
+
+h1, p{
+	margin: 0;
+}
+
+.blok-margin{
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   padding: 20px;
+   padding-top: 100px;
+}
+
+.blok-img-new{
+	width: 420px;
+	height: 299px;	
+}
+.blok-a{
+	margin-top: 20px;	
+	    width: 420px;
+	background: #112B3E;
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+
+.blok-info{
+	padding: 0px 20px 20px 20px;
+}
+
+.blok-img-new-info{
+	width: 100%;
+	max-height: 448px;
+	object-fit: cover
+}
+
+.blok-margin-new-info{
+    color: #fff;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 160px;
+}
+
+@media screen and (max-width: 768px) {.blok-margin-new-info{padding: 20px;padding-top: 120px;}}
+
+
+
+.blok-p-new-info{
+	color: #000;
+	margin-top: 20px;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+
+.blok-comment-new{
+	background: #fff;
+	padding: 20px;
+	padding-top: 1px;
+	color: #000;
+	margin-top: 30px;
+}
+.blok-comment-new p{
+	font-size: 14px;
+	font-weight: 700;
+}
